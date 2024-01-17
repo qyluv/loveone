@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Message</title>
+    <style>
+        body {
+            background-color: #98AFC7;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        #message-container {
+            opacity: 0;
+            transition: opacity 1s;
+			color: #040720;
+        }
+
+        #message-container.show {
+            opacity: 1;
+        }
+
+
+        h2, h5, p {
+            color: #1F6357; /* Set the color for headers and paragraphs */
+        }
+
+        button {
+            background-color: #040720;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>17/1/2023 &#128171;</h2>  
+	<h5>25 years of living, on January 17th. A man who is sooooo important in my life is now 1 year older &#128151;</h5>
+    <p>How does it feel to be that old, baby? HAHAHAH KIDDING!!</p>
+    <p>Semoga sentiasa sihat sayangku and sentiasa mewah rezeki &#129505;</p>
+    <p>I can only gift this as hadiah :(. takpe ke baby :(( ? Bulan ni sesak sikit cowwyy :((</p>
+
+    <p>Okay sayang, serious sikit boleh? Tapi nak speaking HAHAHHA</p>
+
+    <p>Happy birthday to the most amazing person I know! I just wanted to take a little moment to tell you how much I love you Muhamad. If nyawa sayang still panjang, sayang nak create banyakkk memories dengan biyy.</p>
+
+    <p>You're the sweetest, kindest, and most thoughtful boyfriend I could ever ask, baby.</p>
+
+    <p>Let's celebrate your birthday together every year! &#128151;</p>
+
+    <p>I LOVE YOU MUHAMAD IRFAN &#128151;</p>
+
+
+    <button onclick="window.location.href='page5.html'">Last dah ni tekan skunkk !!</button>
+
+    <script>
+    function showMessage() {
+        var messageContainer = document.getElementById('message-container');
+        messageContainer.classList.add('show');
+        document.querySelector('button').style.display = 'none';
+        console.log('Message displayed!');
+    }
+</script>
+
+</body>
+</html>
